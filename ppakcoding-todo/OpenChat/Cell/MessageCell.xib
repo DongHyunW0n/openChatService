@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="229" id="mQc-Xg-YAP" customClass="MessageCell" customModule="ppakcoding_todo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="229"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mQc-Xg-YAP" id="7nO-f6-NZN">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="229"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="H0D-5m-ntz">
+                        <rect key="frame" x="10" y="10" width="373" height="189"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="MG1-N9-gTB">
+                                <rect key="frame" x="0.0" y="84.666666666666686" width="322" height="104.33333333333331"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WG0-0Z-bmb">
+                                        <rect key="frame" x="286.66666666666669" y="0.0" width="35.333333333333314" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e34-5G-dvW">
+                                        <rect key="frame" x="240" y="23" width="82" height="61"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jkg-nl-ecg">
+                                                <rect key="frame" x="20" y="19.999999999999986" width="42" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Jkg-nl-ecg" firstAttribute="top" secondItem="e34-5G-dvW" secondAttribute="top" constant="20" symbolic="YES" id="2O2-wY-1Ti"/>
+                                            <constraint firstItem="Jkg-nl-ecg" firstAttribute="leading" secondItem="e34-5G-dvW" secondAttribute="leading" constant="20" symbolic="YES" id="bzi-VY-jd2"/>
+                                            <constraint firstAttribute="bottom" secondItem="Jkg-nl-ecg" secondAttribute="bottom" constant="20" symbolic="YES" id="s7K-3X-c61"/>
+                                            <constraint firstAttribute="trailing" secondItem="Jkg-nl-ecg" secondAttribute="trailing" constant="20" symbolic="YES" id="v4r-ic-fRT"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vvz-jg-vEt">
+                                        <rect key="frame" x="291" y="89.999999999999986" width="31" height="14.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VGB-bz-Pzc">
+                                <rect key="frame" x="328" y="144" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="GKn-lc-QnX"/>
+                                    <constraint firstAttribute="width" secondItem="VGB-bz-Pzc" secondAttribute="height" multiplier="1:1" id="bTr-ev-pqt"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="H0D-5m-ntz" firstAttribute="leading" secondItem="7nO-f6-NZN" secondAttribute="leading" constant="10" id="Ewu-5C-Ulb"/>
+                    <constraint firstItem="H0D-5m-ntz" firstAttribute="top" secondItem="7nO-f6-NZN" secondAttribute="top" constant="10" id="Rnf-UH-EpF"/>
+                    <constraint firstAttribute="bottom" secondItem="H0D-5m-ntz" secondAttribute="bottom" constant="30" id="ZE2-wq-8TZ"/>
+                    <constraint firstAttribute="trailing" secondItem="H0D-5m-ntz" secondAttribute="trailing" constant="10" id="kAs-10-PfX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="messageBubbleView" destination="e34-5G-dvW" id="agD-Nw-SOz"/>
+                <outlet property="messageLabel" destination="Jkg-nl-ecg" id="F4e-8t-NKr"/>
+                <outlet property="timestampLabel" destination="Vvz-jg-vEt" id="Cvg-Le-gGV"/>
+                <outlet property="userNicknameLabel" destination="WG0-0Z-bmb" id="EsM-sp-mt2"/>
+                <outlet property="userProfileImgView" destination="VGB-bz-Pzc" id="nkm-Gf-Vzl"/>
+            </connections>
+            <point key="canvasLocation" x="348.85496183206106" y="-60.211267605633807"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
