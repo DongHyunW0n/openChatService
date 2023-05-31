@@ -54,6 +54,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="T4c-X6-8Iv"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="messageTableView" destination="i5g-3d-uxA" id="J3s-Qw-4mm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -109,7 +109,7 @@
         <scene sceneID="xwp-b1-Auo">
             <objects>
                 <viewControllerPlaceholder storyboardName="OpenChatVC" id="rD9-tP-dfp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="KC5-uM-Psc"/>
+                    <tabBarItem key="tabBarItem" title="openChat" image="bubble.left.fill" catalog="system" id="KC5-uM-Psc"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MTB-FS-wDE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -136,6 +136,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bubble.left.fill" catalog="system" width="128" height="110"/>
         <image name="checklist" catalog="system" width="128" height="107"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
